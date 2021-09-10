@@ -1,0 +1,78 @@
+
+
+.section {
+    display: grid;
+    grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.menu {
+    grid-area: menu;
+    text-align: center;
+    width: 100px;
+}
+.menu p {
+    background-color: blanchedalmond;
+    margin: 2rem 0;
+}
+
+.header {
+    grid-area: header;
+    text-align: center;
+    margin: 2rem 0;
+    height: 300px;
+    background-color:rgb(246, 148, 53); ;
+
+}
+.title {
+    font-size: 2rem;
+    color: white;
+    margin: 2rem ;
+}
+.searchBox {
+    width: 1200px;
+    height: 70px;
+}
+
+.image {
+    width: 200px;
+    height: auto;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.image:hover {
+    box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, .3);
+}
+
+.container {
+    grid-area: main;
+    
+}
+.btn {
+    background-color: rgb(246, 148, 53);
+    color: black;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 8px;
+}
+.activeBtn {
+    background-color: rgb(246, 148, 53);
+    color: white;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 8px;
+
+}
+.btnContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+}
+
+
